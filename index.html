@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e859b40725.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="images/logo.jpg" class="logo" /> -->
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Data Analyst With Expertise Knowledge in Sports Betting Markets</p>
+          <h1>
+            Hi, I'm <span>Nikko</span> Bronzan <br />
+            from Las Vegas, NV
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------about-------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <!-- <img src="images/Vegas Conclusion.jpg" alt="" /> -->
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hello world! This is my personal profile website and my first attempt at HTML-CSS-JavaScript <br> I am a recent graduate student in data analytics and a passionate sports fan <br> I am very dedicated to pursuing a career in data science <br> I have a vast array of skills regarding cleaning data, ETL, and visualizations and work relentlessly to put these skills together to become a full stack data engineer</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <!-- -------------skills---------- -->
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>Data Analytics</span><br />Summarized knowledge to become a full stack data engineer <br> Certified with SQL, R, Python, MATLAB, and Tensorflow
+                <li><span>Sports Analytics</span><br />Comprehensive knowledge of sports data analytics with a deep understanding of sports betting market behavior</li>
+                <li>
+                  <span>Web Development</span><br />Summarized knowledge HTML-CSS-JavaScript
+                </li>
+              </ul>
+            </div>
+            <!-- -----------experience------------ -->
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>Currently seeking employment</span><br />In the field of data analytics
+                </li>
+                <li><span>2019 - 2022</span><br />Junior Trading Analyst at Winview Games</li>
+                <li>
+                  <span>2014 - 2018</span><br />Ghost Writer for Boyds Bets
+                </li>
+              </ul>
+            </div>
+            <!-- -------------education----------- -->
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>2000-2002</span><br />Associates Degree at Eastern Oregon University</li>
+                <li><span>2022-2023</span><br />Data Analytics Certification at University of Oregon</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------Services---------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Need a personal profile website? Look no further</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>Data Analytics</h2>
+            <p>Full stack capabilities at a bargin price</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h2>Moral Support</h2>
+            <p>I'm a really good listener</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------portfolio------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Belly Button Biodiversity.png" />
+            <div class="layer">
+              <h3>Belly Button Biodiversity Dashboard</h3>
+              <p>Basic dashboard using spoon-fed curriculum data  </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Las Vegas Traffic Dashboards.png" />
+            <div class="layer">
+              <h3>Las Vegas Traffic Dashboard</h3>
+              <p>Created two variations of dashboards for my final project with data pulled from the wild (NDOT)</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Pitt Breakdown.png" />
+            <div class="layer">
+              <h3>Boyds Bets</h3>
+              <p>2015 Pitt Panthers Season Breakdown</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- ------------contact------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>><i class="fa-solid fa-paper-plane"></i> contact@nikkobronzan@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> (702) 807-0915</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/nikko-bronzan-/"
+                ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+              <a href="https://github.com/NikkoB702"><i class="fa-brands fa-github"></i></a>
+              <a href="https://public.tableau.com/app/profile/nikko.bronzan"><i class="fa-solid fa-chart-line"></i></a>
+            </div>
+            <a href="images/Nikko Bronzan Resume.docx" download class="btn btn2">Download CV</a>
+          </div>
+          <!-- <div class="contact-right">
+          </form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
+
+<!-- ---------------------about me finished----------------- -->
